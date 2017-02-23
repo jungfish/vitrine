@@ -32,6 +32,7 @@ CREATE TABLE `polling_places` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(254) NOT NULL,
   `slug` varchar(254) NOT NULL,
+  `address` varchar(256) NOT NULL,
   `zipcode` int(10)  NOT NULL,
   `city` varchar(256) NOT NULL,
   `created` int(10) unsigned NOT NULL,

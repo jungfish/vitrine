@@ -80,8 +80,6 @@ Givers.doSubscribe = function(req, res) {
             }
             return renderPage();
         }
-        
-        // TODO render page route
         res.redirect('/');
 
     });
